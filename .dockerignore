@@ -1,0 +1,31 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Переменные окружения (не должны попадать в образ, только монтируются)
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+.gitignore
+
+# Логи и временные файлы
+*.log
+*.tmp
+

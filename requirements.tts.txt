@@ -1,0 +1,6 @@
+TTS==0.22.0
+transformers==4.41.2
+torch<2.6
+torchaudio<2.6
+
+
